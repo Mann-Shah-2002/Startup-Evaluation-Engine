@@ -1,0 +1,179 @@
+ENGINEER BRIEFING — Future Unicorn Evaluator
+
+
+
+Project at a Glance
+
+
+
+Client: Growth91 (Indian startup investment platform)
+
+Deadline: 1.5 days (~36 hours from briefing)
+
+Stack: Python + Streamlit + Anthropic Claude API + Google Sheets
+
+Deployment: Streamlit Community Cloud (free)
+
+Budget: ₹8,000–15,000 for one day of work
+
+
+
+What's in This Package
+
+
+
+This zip contains all the code and specifications you need. Your job is mostly setup, deployment, calibration. Not greenfield development.
+
+
+
+future_unicorn_evaluator/
+
+├── docs/SPECIFICATION.md
+
+├── README.md
+
+├── app.py
+
+├── evaluator.py
+
+├── extractor.py
+
+├── llm_evaluator.py
+
+├── deterministic_checks.py
+
+├── aggregator.py
+
+├── output.py
+
+├── config.py
+
+├── prompts/
+
+├── tests/test_talenode.py
+
+├── requirements.txt
+
+├── .streamlit/
+
+│   ├── config.toml
+
+│   └── secrets.toml.template
+
+└── .gitignore
+
+
+
+Important: Do not modify the rubric, weights, thresholds, or prompts without explicit client approval.
+
+
+
+Your Task in 36 Hours
+
+
+
+Hour 0–4: Setup
+
+- Verify Python and Git
+
+- Setup local environment
+
+- Run Streamlit locally
+
+
+
+Hour 4–8: API
+
+- Setup Anthropic API
+
+- Run test evaluation
+
+
+
+Hour 8–16: Deploy
+
+- Push to GitHub
+
+- Deploy on Streamlit Cloud
+
+- Configure secrets
+
+
+
+Hour 16–24: Google Sheets
+
+- Setup API and service account
+
+- Integrate and test
+
+
+
+Hour 24–36: Calibration
+
+- Run test startups
+
+- Compare outputs
+
+- Fix UI bugs
+
+
+
+Critical Constraints
+
+
+
+- Do not modify rubric
+
+- Do not modify prompts
+
+- Use majority voting
+
+- Keep it simple
+
+- Maintain confidentiality
+
+
+
+Validation Criteria
+
+
+
+- App deployed
+
+- Password works
+
+- Talenode test passes
+
+- Google Sheets works
+
+- No runtime errors
+
+- UI renders properly
+
+
+
+What Success Looks Like
+
+
+
+Working app with upload, evaluation, dashboard, sheet save, JSON download.
+
+
+
+Communication
+
+
+
+- Ask when stuck
+
+- Track time
+
+
+
+Payment
+
+
+
+- 50% upfront
+
+- 50% after deployment

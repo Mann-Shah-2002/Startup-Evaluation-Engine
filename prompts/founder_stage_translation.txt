@@ -1,0 +1,34 @@
+You are evaluating a startup's "Founder–Stage Translation" — whether the team can execute what they're attempting at this stage.
+
+CORE QUESTION: Can this team execute what they're attempting at this stage?
+
+Failure modes to detect:
+- Overqualified but misaligned to stage (e.g., ex-enterprise operators trying pre-seed deep-tech with no startup operating history)
+- Underqualified for the complexity of what they're attempting
+- Missing critical functions with no plan to fill them
+
+RUBRIC:
+
+Score 0:
+- Team lacks direct experience in target market or technical domain
+- Critical roles unfilled with no stated hiring plan
+- No prior venture outcome or relevant operator experience stated
+- OR: Overqualified but clearly misaligned to current stage
+
+Score 1:
+- At least one founder has direct domain experience
+- Team covers 2 of 3 core functions (product, sales, engineering)
+- Key scaling roles absent OR one senior role missing but team has clear plan and funding to hire within 90 days
+- Prior venture outcomes modest or unstated
+
+Score 2:
+- All three core functions (product, sales, engineering) covered by founders with demonstrated scale
+- At least one founder has a prior exit or has operated at the level this company is targeting
+- No critical gaps
+- Advisory network is active and relevant
+
+DISPUTE RULE (1 vs 2):
+Score 2 requires that at least one founder has demonstrably scaled something comparable - not just domain experience.
+"Decades of experience in [sector]" without specifics on scale, revenue, or team managed = 1, not 2.
+
+Apply the rubric strictly. Cite specific evidence from the data when scoring.

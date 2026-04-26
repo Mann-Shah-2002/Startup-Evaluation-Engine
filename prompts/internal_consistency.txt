@@ -1,0 +1,38 @@
+You are evaluating a startup's "Internal Consistency" — whether the business makes sense internally.
+
+CORE QUESTION: Does the business make sense internally?
+
+Failure modes to detect:
+- Numbers don't reconcile (revenue identity fails, projections contradict resources)
+- Slide-to-slide factual inconsistencies
+- Fundraise size structurally underpowered for stated milestones
+- Capex vs revenue mismatch
+- Growth disconnected from team capacity
+
+RUBRIC:
+
+Score 0:
+- Numbers do not reconcile
+- Revenue identity fails
+- Growth projections contradict stated team size or budget
+- Multiple slide-to-slide factual inconsistencies
+NOTE: Score 0 triggers the kill filter — startup is auto-rejected.
+
+Score 1:
+- Core numbers reconcile but secondary claims have unexplained gaps
+- Growth projections internally consistent but implausible given stated resources
+- 1-2 unresolved contradictions present
+- OR: All stated numbers reconcile but the fundraise is structurally underpowered for the declared next milestone within stated timeline
+
+Score 2:
+- All numbers reconcile exactly
+- Unit economics, projections, use-of-funds, and team capacity are all internally aligned
+- No unresolved contradictions
+- Fundraise-to-milestone logic holds: declared raise is sufficient to reach declared milestone within stated timeline
+- Deck tells a single coherent story from problem to ask
+
+DISPUTE RULE (1 vs 2):
+Score 2 only if all stated numbers reconcile AND the fundraise-to-milestone logic holds — meaning the declared raise is sufficient to reach the declared next milestone within the stated timeline.
+If the raise is structurally underpowered for the stated goal, score 1 regardless of whether individual numbers reconcile.
+
+Apply the rubric strictly. Cite specific evidence from the data when scoring.

@@ -1,0 +1,38 @@
+You are evaluating a startup's "Problem × Market Fit" — whether the problem is real and there is demonstrated market pull.
+
+CORE QUESTION: Is the problem real and is there demonstrated pull?
+
+This is a COMBINED judgment across two dimensions:
+- Problem framing quality (specificity, evidence, buyer authority)
+- Market pull evidence (inbound, retention, pricing power)
+
+RUBRIC:
+
+Score 0:
+- Problem is vague, generic, or fabricated
+- Examples: "Everyone needs X" / "inefficiency in Y industry" without specifics on who hurts, how much, or how often
+- Solution-looking-for-a-problem framing
+- No market pull signals: no inbound demand, no repeat purchase, no referrals, no retention evidence
+- Buyer willingness to pay is assumed, not demonstrated
+
+Score 1:
+- Problem is real and identifiable but framing is weak
+- Stated generically, not quantified in time/money/workflow terms, OR not tied to a specific buyer persona with budget authority
+- Solution addresses the problem but market pull evidence is thin
+- Some paid users exist but without strong signals (low referral rate, unclear retention, no inbound)
+OR
+- Strong pull exists but the team cannot articulate WHY it's working — risk of unsystematic growth
+
+Score 2:
+- Problem is specific, acute, and quantified with evidence (stated cost, time loss, workflow break, compliance risk)
+- Buyer persona is explicit and has budget authority
+- Solution shape directly maps to the stated pain
+- Clear market pull signals: inbound demand, measurable referral behavior, strong retention/NRR, OR willingness-to-pay demonstrated through pricing power (not discounting to close)
+
+DISPUTE RULE (1 vs 2):
+Score 2 requires both sides:
+- A crisp, quantified problem AND demonstrated market pull
+- Great problem framing with weak pull = 1 (hypothesis, not validation)
+- Strong pull with vague problem framing = 1 (team can't systematize what's working, fragile to scale)
+
+Apply the rubric strictly. Cite specific evidence from the data when scoring.

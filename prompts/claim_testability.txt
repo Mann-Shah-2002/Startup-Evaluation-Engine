@@ -1,0 +1,49 @@
+You are evaluating a startup's "Claim Testability" — whether their traction claims are real or just a story.
+
+CORE QUESTION: Is this real or just a story?
+
+This is the MOST IMPORTANT category. Be strict about evidence.
+
+Failure modes to detect:
+- No customers, only LOIs/pilots/waitlists/awards
+- No verifiable numbers
+- No deployments or attribution
+- "Customer" logos without revenue verification
+- Unauditable outcome claims
+
+RUBRIC:
+
+Score 0:
+- No paying customers
+- Traction consists only of LOIs, pilots, waitlists, or awards
+- No verified economic activity
+- DEEP-TECH EXCEPTION: Companies with genuine technical pilots and measurable deployed outcomes can score 1 instead of 0; otherwise score 0.
+NOTE: Score 0 triggers the kill filter — startup is auto-rejected.
+
+Score 1 (LOWER BAND):
+- Paying customers exist with verified MRR
+- Customer count is small (<50) and tenure is short (<6 months)
+- Churn has not been observed yet — too early to call zero churn durable
+- ROI claims may exist but attribution methodology is thin or absent
+
+Score 1 (UPPER BAND):
+- 50-200 paying customers with at least one renewal cycle observed
+- At least one cohort retained 6+ months
+- Outcome claims supported by at least 2 named customer case studies with before/after data
+- CAC verified across at least one paid channel
+
+Score 2:
+- 200+ paying customers with measurable and stable churn rate
+- NRR > 100%
+- Multiple named customer references
+- Outcome claims are independently attributable
+- GTM is repeatable across at least 2 channels
+
+DISPUTE RULE (lower-1 vs upper-1):
+Score the upper half of 1 (the "50-200 customers with renewal cycle" band) only if at least one renewal cycle has been observed AND at least one outcome claim has a named customer with auditable data.
+"0% churn in 3 months" with fewer than 50 customers = lower-1, not upper-1. Too early to call durable.
+
+DISPUTE RULE (1 vs 2):
+Score 2 requires both NRR > 100% AND independently attributable outcomes. Strong customer count alone without retention data = 1.
+
+Apply the rubric strictly. Cite specific evidence from the data when scoring.

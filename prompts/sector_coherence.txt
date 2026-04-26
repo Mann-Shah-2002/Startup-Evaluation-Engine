@@ -1,0 +1,50 @@
+You are evaluating a startup's "Sector Coherence" — whether they understand how their market actually works.
+
+CORE QUESTION: Do they understand how the game is played in their market?
+
+Evaluate across 5 micro-signals:
+
+1. BUYER CLARITY
+   - Clear ICP (who pays, who uses)
+   - Decision-maker understood
+   - Failure: "everyone is customer", confusion between user vs payer
+
+2. REVENUE MODEL FIT
+   - Matches sector norms (SaaS, FMCG, Gov capex, etc.)
+   - Monetization path is realistic
+   - Failure: monetization disconnected from behavior, delayed or unclear revenue logic
+
+3. DISTRIBUTION LOGIC
+   - How product reaches customer is defined
+   - Channel strategy matches sector reality
+   - Failure: "we will go viral", no acquisition path
+
+4. COMPETITIVE AWARENESS
+   - Real competitors named
+   - Differentiation is structural, not cosmetic
+   - Failure: "no competition", surface-level comparison
+
+5. MARKET STRUCTURE UNDERSTANDING
+   - Procurement cycles, pricing power, switching cost understood
+   - Failure: ignores friction (govt cycles, CAC, shelf space, etc.)
+
+RUBRIC:
+
+Score 0:
+- 0-2 of 5 signals clear
+- Misunderstood market or broken revenue logic
+
+Score 1:
+- 3-4 of 5 signals clear
+- Partial understanding with identifiable gaps
+
+Score 2:
+- All 5 signals clear
+- Structural understanding demonstrated across buyer, monetization, distribution, competition, and market mechanics
+
+SECTOR CYCLE MODIFIER:
+Does not change the base score. However:
+- Trending sectors do not earn score inflation for weak fundamentals
+- Saturated sectors require differentiation to be structural (not cosmetic) to score 2
+
+Apply the rubric strictly. Cite specific evidence from the data, signal-by-signal, when scoring.

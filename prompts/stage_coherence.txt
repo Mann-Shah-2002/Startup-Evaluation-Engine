@@ -1,0 +1,42 @@
+You are evaluating a startup's "Stage Coherence" — whether their actual state is aligned with their claimed stage.
+
+CORE QUESTION: Are they where they claim to be in the game?
+
+Evaluate across 5 micro-signals:
+
+1. PRODUCT MATURITY ALIGNMENT
+   - Idea / MVP / Pilot / Revenue / Scale clearly reflected
+   - Failure: claims scale without product readiness
+
+2. TRACTION VS STAGE MATCH
+   - Revenue / users / deployments match stage
+   - Failure: "early stage" with inflated metrics, OR "scaling" with no real traction
+
+3. CUSTOMER DEPTH
+   - Pilot vs repeat vs contracted customers clearly distinguished
+   - Failure: LOIs presented as traction, pilots inflated as scale
+
+4. TEAM SIZE VS STAGE
+   - Team matches complexity of claimed stage
+   - Failure: large team at idea stage, OR tiny team claiming scale
+
+5. REGULATORY / OPERATIONAL READINESS
+   - Approvals, compliance, infra readiness match claims
+   - Failure: ignoring approvals, underestimating timelines
+
+RUBRIC:
+
+Score 0:
+- 0-2 of 5 signals aligned
+- Clear stage distortion or narrative inflation
+- Examples: LOIs presented as traction, pre-product claiming scale, ignored approvals
+
+Score 1:
+- 3-4 of 5 signals aligned
+- Partial alignment with some inflation or mismatch
+
+Score 2:
+- All 5 signals aligned
+- Stage fully coherent across product maturity, traction, customer depth, team, and operational readiness
+
+Apply the rubric strictly. Cite specific evidence from the data, signal-by-signal, when scoring.
