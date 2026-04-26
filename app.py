@@ -8,6 +8,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 from evaluator import evaluate_startup
 from output import append_evaluation
+from pdf_generator import generate_pdf_report
 from config import APP_TITLE, APP_SUBTITLE, CATEGORIES, SCORE_COLOR
 
 # ============================================================
@@ -32,8 +33,15 @@ def check_password():
     if st.session_state.authenticated:
         return True
 
-    st.title(APP_TITLE)
-    st.caption(APP_SUBTITLE)
+    c1, c2 = st.columns([1, 5])
+    with c1:
+        try:
+            st.image("img/GS Logo.png", width=100)
+        except FileNotFoundError:
+            pass
+    with c2:
+        st.title(APP_TITLE)
+        st.caption(APP_SUBTITLE)
     password = st.text_input("Enter password", type="password")
     if st.button("Sign in"):
         if password == st.secrets.get("APP_PASSWORD"):
@@ -113,8 +121,15 @@ def render_category_bar(name: str, score: int, contribution: float, weight: int)
 # MAIN UI
 # ============================================================
 
-st.title(APP_TITLE)
-st.caption(APP_SUBTITLE)
+c1, c2 = st.columns([1, 5])
+with c1:
+    try:
+        st.image("img/GS Logo.png", width=100)
+    except FileNotFoundError:
+        pass
+with c2:
+    st.title(APP_TITLE)
+    st.caption(APP_SUBTITLE)
 st.divider()
 
 # Sidebar with logout
@@ -275,7 +290,7 @@ else:
     st.divider()
 
     # Save to Sheet
-    col_a, col_b = st.columns([1, 3])
+    col_a, col_b, col_c = st.columns([1, 1.5, 1.5])
     with col_a:
         if st.button("💾 Save to Google Sheet", type="primary"):
             try:
@@ -293,3 +308,15 @@ else:
             file_name=f"{result['startup_name'].replace(' ', '_')}_evaluation.json",
             mime="application/json"
         )
+        
+    with col_c:
+        try:
+            pdf_bytes = generate_pdf_report(result)
+            st.download_button(
+                "📄 Download PDF report",
+                data=pdf_bytes,
+                file_name=f"{result['startup_name'].replace(' ', '_')}_evaluation.pdf",
+                mime="application/pdf"
+            )
+        except Exception as e:
+            st.error(f"Failed to generate PDF: {str(e)}")
