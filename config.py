@@ -84,7 +84,7 @@ SHEET_HEADER = [
 # DEPLOYMENT CONFIGURATION
 # ============================================================
 
-APP_TITLE = "Growth91 Evaluation Engine"
+APP_TITLE = "Startup Evaluation Engine"
 APP_SUBTITLE = "Growth91 Internal Curation Tool"
 
 
