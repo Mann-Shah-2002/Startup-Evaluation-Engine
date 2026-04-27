@@ -85,7 +85,7 @@ SHEET_HEADER = [
 # ============================================================
 
 APP_TITLE = "Startup Evaluation Engine"
-APP_SUBTITLE = "Growth91 Internal Curation Tool"
+APP_SUBTITLE = "Curation Tool"
 
 
 def compute_tier(final_score: float, kill_filter_triggered: bool) -> dict:
