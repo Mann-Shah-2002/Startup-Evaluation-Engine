@@ -66,7 +66,7 @@ SCORE_COLOR = {
 # ============================================================
 
 LLM_MODEL = "claude-haiku-4-5"
-LLM_TEMPERATURE = 1
+LLM_TEMPERATURE = 0
 LLM_MAX_TOKENS = 1024
 LLM_VOTES_PER_CATEGORY = 3  # Majority voting
 
